@@ -20,6 +20,8 @@ deploy:
   to: <dir>
 ```
 
+> Note: The destination directory [to] will be removed if it exists. 
+
 ### Update
 
 Execute the following command.
