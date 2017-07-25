@@ -1,16 +1,35 @@
 {
   "name": "hexo-deployer-copy",
   "version": "1.0.1",
-  "description": "",
+  "description": "Copy deployer plugin for Hexo",
   "main": "lib/deployer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "hexo",
+    "plugin",
+    "deployer",
+    "copy"
+  ],
+  "author": {
+    "name": "Antério Vieira",
+    "email": "anteriovieira@gmail.com"
+  },
+  "homepage": "https://github.com/anteriovieira/hexo-deployer-copy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anteriovieira/hexo-deployer-copy.git"
+  },
   "license": "ISC",
   "dependencies": {
     "copy-dir": "^0.3.0",
     "rimraf": "^2.6.1"
-  }
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ]
 }
