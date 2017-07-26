@@ -14,13 +14,19 @@ npm install hexo-deployer-copy --save
 
 Add `to` to `deploy` in `_config.yml`.
 
-```
+```yml
+# You can use this:
 deploy:
   type: copy
   to: <dir>
+  clean_before: [true|false] 
 ```
 
-> Note: The destination directory [to] will be removed if it exists. 
+| Option | Description | Default | Param |
+|--------|-------------|---------|-------|
+| to     | Destination directory | | Required
+| clean_before | Clear the destination directory before copying | false | Optional
+
 
 ### Update
 
