@@ -38,7 +38,7 @@ npm update
 
 ### Uninstall
 
-Execute the following command. Don't forget to disable the plugin before uninstalling.
+Execute the following command. 
 
 ```
 npm uninstall hexo-deployer-copy
