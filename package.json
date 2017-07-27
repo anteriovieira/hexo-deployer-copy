@@ -1,6 +1,6 @@
 {
   "name": "hexo-deployer-copy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Copy deployer plugin for Hexo",
   "main": "lib/deployer.js",
   "scripts": {
