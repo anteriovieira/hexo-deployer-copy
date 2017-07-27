@@ -41,10 +41,8 @@ npm update
 Execute the following command. Don't forget to disable the plugin before uninstalling.
 
 ```
-npm uninstall hexo-deployer-ftp
+npm uninstall hexo-deployer-copy
 ```
-
-[Hexo]: http://zespia.tw/hexo
 
 ## License
 
